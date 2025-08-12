@@ -98,4 +98,12 @@ they       | ### (3)
 alex       | ### (3)
 a          | ### (3)
 ```
-  
+
+## Languages & Tools Used
+
+- **Java** – Core programming language used for development.
+- **Java Collections Framework (Map, List, Stream API)** – For storing and processing word frequencies.
+- **Java I/O (BufferedReader, FileReader)** – For reading text files.
+- **Regular Expressions (Regex)** – For cleaning and normalizing text input.
+- **IntelliJ IDEA** – Integrated Development Environment (IDE) used for coding, running, and debugging.
+- **Git** – Version control and source code hosting.

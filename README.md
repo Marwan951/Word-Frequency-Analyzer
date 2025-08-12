@@ -45,7 +45,7 @@ word-frequency-analyzer/
 ```
 4. **Update the file path in Main.java** or name the file with Text.txt
 ```Java
- String filePath = "src/Resources/Text.txt";
+String file_path = "src\\Resources\\Text";
 ```
 5. **Change the N as you like** - (ex. N = 10)
 ```Java

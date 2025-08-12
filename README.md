@@ -3,11 +3,54 @@ The Word Frequency Analyzer is a Java program that reads a text file, processes 
 As a bonus, it can also generate a bar chart visualization of the top words.
 
 ## Features
-Read from File: Accepts a path to a .txt file.
-Case & Punctuation Handling: Ignores case and removes punctuation for accurate counting.
-Top N Words: Displays the top N (N=10) most frequent words with their counts.
-Visualization (Bonus): Generates a simple bar chart of the top words.
+- Read from File: Accepts a path to a .txt file.
+- Case & Punctuation Handling: Ignores case and removes punctuation for accurate counting.
+- Top N Words: Displays the top N (N=10) most frequent words with their counts.
+- Visualization (Bonus): Generates a simple bar chart of the top words.
 
+## Folder Structure
+```bash
+word-frequency-analyzer/
+│
+├── src/
+│   ├── WordFrequencyAnalyzer/
+│   │   ├── Main.java
+│   ├── Services/
+│   │   ├── Bar_Chart.java
+│   │   ├── Text_Cleaner.java
+│   │   ├── Text_Reader.java
+│   │   ├── Word_Counter.java
+│
+├── Resources/
+│   ├── Text.txt   # Sample text file for testing
+│
+└── README.md
+```
+
+## How to Run the Program
+1. **Clone the Repository**
+ ```bash
+   git clone https://github.com/yourusername/Word-Frequency-Analyzer.git
+  ```
+2. **Check Main Class**
+```bash
+ src/com/example/analyzer/Main.java
+```
+3. **Add Your Input File**  - Place your .txt file inside or use the existing one 
+```bash
+ src/Resources/
+```
+4. **Update the file path in Main.java** or name the file with Text.txt
+```Java
+String filePath = "src/Resources/sample.txt";
+```
+5. **Change the N as you like** - (ex. N = 10)
+```Java
+   freq = word_counter.get_highest_N_freq(map, 10);
+```
+6. **Run the Program**
+   Expected output: The top 10 most frequent words will appear in the console as a bar chart
+   
 ## Usage Example
 Input 
 filepath: "src\\Resources\\Text"

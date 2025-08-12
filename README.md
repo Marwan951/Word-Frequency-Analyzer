@@ -9,12 +9,14 @@ Top N Words: Displays the top N (N=10) most frequent words with their counts.
 Visualization (Bonus): Generates a simple bar chart of the top words.
 
 ## Usage Example
-Input file
+Input 
+filepath: "src\\Resources\\Text"
  ```text
 Once upon a time, in a land far, far away, there was a small village. The village was peaceful—very peaceful indeed. People in the village loved stories. Stories about heroes, stories about adventures, and stories about everyday life.
 One hero, named Alex, was especially famous. Alex would tell stories at night, under the bright stars. The children loved Alex’s stories! They laughed, they gasped, and they dreamed. Stories, after all, connected the people.
 Stories gave them hope. Stories brought them together, even in the hardest times. Far away in the city, life was different. But in the village, stories remained the heartbeat of the community.
  ```
+Processing:
 ```Java
    // Step 1: Read the file content
    try {
@@ -35,8 +37,7 @@ Stories gave them hope. Stories brought them together, even in the hardest times
    // Step 5: Display the results as a Word bar chart
    bar_chart.printWordChart(freq);
 ```
-
-Output File
+Output
 ```text
 Word Frequency Chart:
 stories    | ########## (10)

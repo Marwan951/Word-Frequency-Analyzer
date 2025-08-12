@@ -34,11 +34,14 @@ word-frequency-analyzer/
  ```
 2. **Check Main Class**
 ```bash
- src/com/example/analyzer/Main.java
+├── src/
+│   ├── WordFrequencyAnalyzer/
+│   │   ├── Main.java
 ```
 3. **Add Your Input File**  - Place your .txt file inside or use the existing one 
 ```bash
- src/Resources/
+├── Resources/
+│   ├── Text.txt
 ```
 4. **Update the file path in Main.java** or name the file with Text.txt
 ```Java

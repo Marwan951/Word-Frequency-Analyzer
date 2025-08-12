@@ -30,8 +30,8 @@ word-frequency-analyzer/
 ## How to Run the Program
 1. **Clone the Repository**
  ```bash
-   git clone https://github.com/yourusername/Word-Frequency-Analyzer.git
-  ```
+ git clone https://github.com/yourusername/Word-Frequency-Analyzer.git
+ ```
 2. **Check Main Class**
 ```bash
  src/com/example/analyzer/Main.java
@@ -42,15 +42,16 @@ word-frequency-analyzer/
 ```
 4. **Update the file path in Main.java** or name the file with Text.txt
 ```Java
-String filePath = "src/Resources/Text.txt";
+ String filePath = "src/Resources/Text.txt";
 ```
 5. **Change the N as you like** - (ex. N = 10)
 ```Java
-   freq = word_counter.get_highest_N_freq(map, 10);
+ freq = word_counter.get_highest_N_freq(map, 10);
 ```
 6. **Run the Program**
-   Expected output: The top 10 most frequent words will appear in the console as a bar chart
-   
+```text
+ Expected output: The top 10 most frequent words will appear in the console as a bar chart
+```
 ## Usage Example
 Input 
 filepath: "src\\Resources\\Text"
